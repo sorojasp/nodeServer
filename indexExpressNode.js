@@ -134,7 +134,7 @@ appServer.use(function(req,res,next){
 
 //appServer.listen(3000)
 //aquí se agrega una callback
-appServer.listen(3500,function(){
+appServer.listen(process.env.PORT,function(){
 console.log("servidor funcionando")
 }) /**
 Hay que aclararle al servidor el puerto por el que va a escuchar
