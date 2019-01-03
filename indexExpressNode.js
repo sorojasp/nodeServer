@@ -92,8 +92,7 @@ appServer.post('/test-page', function(req, res) {
     console.log(Prueba)
 
     
-    res.sendStatus(200)
-    res.json({Prueba})
+    res.sendStatus(200).json({Prueba})
 });
 
 
