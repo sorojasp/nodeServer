@@ -1,0 +1,27 @@
+{
+  "name": "expressnode",
+  "version": "1.0.0",
+  "description": "firstStepInExpressNode",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.18.5",
+    "static": "^2.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node indexExpressNode.js",
+    "dev": "nodemon indexExpressNode.js"
+  },
+  "author": "IngStivenRojas",
+  "license": "ISC",
+  "keywords": [
+    "node",
+    "express",
+    "server"
+  ]
+}
